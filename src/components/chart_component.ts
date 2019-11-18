@@ -1,4 +1,4 @@
-import {IComponent} from './base';
+import {IComponent} from './base_component';
 
 export enum ChartType {
   GraphBar = 'graph-bar',

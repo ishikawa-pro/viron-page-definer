@@ -1,4 +1,4 @@
-import {IComponent} from './base';
+import {IComponent} from './base_component';
 
 export interface stringComponent extends IComponent {
   style: 'string'
