@@ -1,0 +1,18 @@
+{
+  "name": "viron-page-definer",
+  "version": "1.0.0",
+  "description": "viron page define library",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "viron"
+  ],
+  "author": "ishikawa-pro",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.8",
+    "typescript": "^3.7.2"
+  }
+}
