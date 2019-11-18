@@ -1,5 +1,4 @@
-import {IComponent } from './component';
-import { ISection } from './section';
+import {IComponent } from './components/base';
 
 export type PageDefine = {
   id: string  // ページのID。全ページでユニークになっている必要があります
