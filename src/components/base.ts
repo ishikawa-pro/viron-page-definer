@@ -10,13 +10,8 @@ interface API {
   path: string
 }
 
-export enum Style {
-  Number = 'number',
-}
-
 export interface IComponent {
   api: API
   name: string
-  style: Style
   auto_refresh_sec?: number
 }
