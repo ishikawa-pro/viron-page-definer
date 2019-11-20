@@ -4,7 +4,8 @@
   "description": "viron page define library",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts"
   },
   "keywords": [
     "viron"
@@ -13,6 +14,12 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^12.12.8",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.19.1",
     "typescript": "^3.7.2"
   }
 }
