@@ -1,6 +1,6 @@
 import {IComponent} from './base_component';
 
-export interface numberComponent extends IComponent {
+export interface NumberComponent extends IComponent {
   style: 'number'
   unit?: number
 }
