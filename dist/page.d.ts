@@ -1,4 +1,4 @@
-import { IComponent } from './component';
+import { IComponent } from './components/base_component';
 export declare type PageDefine = {
     id: string;
     name: string;
