@@ -1,6 +1,6 @@
 {
   "name": "viron-page-definer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "viron page define library",
   "main": "dist/index.js",
   "scripts": {
@@ -8,10 +8,15 @@
     "lint": "eslint src/**/*.ts"
   },
   "keywords": [
-    "viron"
+    "viron",
+    "typescript"
   ],
   "author": "ishikawa-pro",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ishikawa-pro/viron-page-definer"
+  },
   "devDependencies": {
     "@types/node": "^12.12.8",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
