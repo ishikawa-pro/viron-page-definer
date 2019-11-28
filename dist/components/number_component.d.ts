@@ -5,5 +5,5 @@ export declare class NumberComponent implements IComponent {
     auto_refresh_sec?: number;
     readonly style = "number";
     unit?: number;
-    constructor(api: API, name: string);
+    constructor(api: API, name: string, auto_refresh_sec?: number);
 }

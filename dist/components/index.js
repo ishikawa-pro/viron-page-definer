@@ -5,3 +5,4 @@ function __export(m) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./number_component"));
 __export(require("./chart_component"));
+__export(require("./base_component"));
