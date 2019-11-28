@@ -5,7 +5,7 @@ export enum Method {
   Delete = "delete",
 }
 
-interface API {
+export interface API {
   method: Method
   path: string
 }

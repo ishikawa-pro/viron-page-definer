@@ -4,7 +4,7 @@ export declare enum Method {
     Put = "put",
     Delete = "delete"
 }
-interface API {
+export interface API {
     method: Method;
     path: string;
 }
@@ -13,4 +13,3 @@ export interface IComponent {
     name: string;
     auto_refresh_sec?: number;
 }
-export {};
