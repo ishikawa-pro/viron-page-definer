@@ -1,6 +1,6 @@
 {
   "name": "viron-page-definer",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "viron page define library",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
