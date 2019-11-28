@@ -10,6 +10,14 @@ export interface API {
   path: string
 }
 
+export function apiFactory(method: Method, path: string) {
+  const api:API = {
+    method: method,
+    path: path
+  };
+  return api;
+}
+
 export interface IComponent {
   api: API
   name: string
