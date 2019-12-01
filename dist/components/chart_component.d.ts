@@ -1,4 +1,5 @@
-import { IComponent } from './base_component';
+import { Component } from './base_component';
+import { API } from '../api';
 export declare enum ChartType {
     GraphBar = "graph-bar",
     GraphScatterplot = "graph-scatterplot",
@@ -7,6 +8,7 @@ export declare enum ChartType {
     GraphStackedBar = "graph-stacked-bar",
     GraphHorizontalStackedBar = "graph-horizontal-stacked-bar"
 }
-export interface ChartComponent extends IComponent {
+export declare class ChartComponent extends Component {
     style: ChartType;
+    constructor(api: API, name: string, style: ChartType, auto_refresh_sec?: number);
 }
