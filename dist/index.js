@@ -7,3 +7,4 @@ __export(require("./components"));
 __export(require("./endpoint"));
 __export(require("./theme"));
 __export(require("./page"));
+__export(require("./api"));

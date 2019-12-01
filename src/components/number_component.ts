@@ -1,14 +1,11 @@
-import {IComponent, API} from './base_component';
+import {Component} from './base_component';
+import {API} from '../api';
 
-export class NumberComponent implements IComponent {
-  api: API;
-  name: string;
-  auto_refresh_sec?: number;
-  readonly style = 'number'
-  unit?: number
-  constructor(api: API, name: string, auto_refresh_sec?: number) {
-    this.api = api;
-    this.name = name;
-    this.auto_refresh_sec = auto_refresh_sec;
+export class NumberComponent extends Component {
+  style: string = 'number';
+  unit?: string;
+  constructor(api: API, name: string, auto_refresh_sec?: number, unit?:string) {
+    super(api, name, auto_refresh_sec);
+    this.unit = unit;
   }
 }

@@ -1,17 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Method;
-(function (Method) {
-    Method["Get"] = "get";
-    Method["Post"] = "post";
-    Method["Put"] = "put";
-    Method["Delete"] = "delete";
-})(Method = exports.Method || (exports.Method = {}));
-function apiFactory(method, path) {
-    var api = {
-        method: method,
-        path: path
-    };
-    return api;
-}
-exports.apiFactory = apiFactory;
+var Component = /** @class */ (function () {
+    function Component(api, name, auto_refresh_sec) {
+        this.api = api;
+        this.name = name;
+        this.auto_refresh_sec = auto_refresh_sec;
+    }
+    return Component;
+}());
+exports.Component = Component;
