@@ -1,12 +1,6 @@
 import {API} from '../api';
 
-export interface IComponent {
-  api: API
-  name: string
-  auto_refresh_sec?: number
-}
-
-export abstract class Component implements IComponent {
+export abstract class Component {
   api: API;
   name: string;
   auto_refresh_sec?: number;
