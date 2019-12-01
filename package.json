@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "build": "eslint src/**/*.ts && tsc",
+    "build": "eslint src/**/*.ts && rm -rf dist && tsc",
     "lint": "eslint src/**/*.ts"
   },
   "keywords": [
