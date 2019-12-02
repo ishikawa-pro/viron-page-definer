@@ -7,4 +7,5 @@ __export(require("./components"));
 __export(require("./menu"));
 __export(require("./theme"));
 __export(require("./page"));
+__export(require("./section"));
 __export(require("./api"));
