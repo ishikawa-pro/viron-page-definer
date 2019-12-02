@@ -7,7 +7,8 @@ export enum ChartType {
   GraphLine = 'graph-line',
   GraphHorizontalBar = 'graph-horizontal-bar',
   GraphStackedBar = 'graph-stacked-bar',
-  GraphHorizontalStackedBar = 'graph-horizontal-stacked-bar'
+  GraphHorizontalStackedBar = 'graph-horizontal-stacked-bar',
+  GraphStackedArea= 'graph-stacked-area'
 }
 
 export class ChartComponent extends Component {

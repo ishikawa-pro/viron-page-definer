@@ -22,6 +22,7 @@ var ChartType;
     ChartType["GraphHorizontalBar"] = "graph-horizontal-bar";
     ChartType["GraphStackedBar"] = "graph-stacked-bar";
     ChartType["GraphHorizontalStackedBar"] = "graph-horizontal-stacked-bar";
+    ChartType["GraphStackedArea"] = "graph-stacked-area";
 })(ChartType = exports.ChartType || (exports.ChartType = {}));
 var ChartComponent = /** @class */ (function (_super) {
     __extends(ChartComponent, _super);
