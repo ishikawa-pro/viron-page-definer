@@ -1,5 +1,5 @@
 import { Component } from './components/base_component';
-interface IPage {
+export interface IPage {
     id: string;
     name: string;
     group?: string;
@@ -11,4 +11,3 @@ export declare enum defaultSection {
     manage = "manage"
 }
 export declare function createPage(id: string, name: string, components: Component[], section: string, group?: string): IPage;
-export {};

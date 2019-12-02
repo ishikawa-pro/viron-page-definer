@@ -1,6 +1,6 @@
 import { Component } from './components/base_component';
 
- interface IPage {
+ export interface IPage {
   id: string  // ページのID。全ページでユニークになっている必要があります
   name: string // ページ名
   group?: string  // 中項目。空の場合はsection直下にcomponentsを配置

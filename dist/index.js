@@ -4,7 +4,7 @@ function __export(m) {
 }
 Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./components"));
-__export(require("./endpoint"));
+__export(require("./menu"));
 __export(require("./theme"));
 __export(require("./page"));
 __export(require("./api"));

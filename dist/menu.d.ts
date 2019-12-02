@@ -1,3 +1,4 @@
+import { IPage } from './page';
 export declare enum EndpointColor {
     purple = "purple",
     blue = "blue",
@@ -8,9 +9,13 @@ export declare enum EndpointColor {
     black = "black",
     white = "white"
 }
-export interface IEndpoint {
+interface IMenu {
     name: string;
     thumbnail?: string;
     tags?: string[];
     color?: EndpointColor;
+    pages: IPage[];
+    sections?: string;
 }
+export declare function createMenu(name: string, pages: IPage[], thumbnail?: string, tags?: string[], color?: EndpointColor, sections?: string): IMenu;
+export {};
