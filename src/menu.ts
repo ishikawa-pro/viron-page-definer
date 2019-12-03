@@ -1,4 +1,5 @@
 import {IPage} from './page';
+import {theme} from './theme';
 export enum EndpointColor {
   purple ='purple',
   blue = 'blue',
@@ -14,6 +15,7 @@ interface IMenu {
   name: string
   thumbnail?: string
   tags?: string[]
+  theme?: theme
   color?: EndpointColor
   pages: IPage[]
   sections?: string
@@ -24,6 +26,7 @@ export function createMenu(
   pages: IPage[],
   thumbnail?: string,
   tags?: string[],
+  theme?: theme,
   color?: EndpointColor,
   sections?: string,
 ): IMenu {
@@ -31,6 +34,7 @@ export function createMenu(
     name,
     pages,
     thumbnail,
+    theme,
     color,
     tags,
     sections

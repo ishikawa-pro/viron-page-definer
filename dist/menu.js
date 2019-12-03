@@ -11,11 +11,12 @@ var EndpointColor;
     EndpointColor["black"] = "black";
     EndpointColor["white"] = "white";
 })(EndpointColor = exports.EndpointColor || (exports.EndpointColor = {}));
-function createMenu(name, pages, thumbnail, tags, color, sections) {
+function createMenu(name, pages, thumbnail, tags, theme, color, sections) {
     var menu = {
         name: name,
         pages: pages,
         thumbnail: thumbnail,
+        theme: theme,
         color: color,
         tags: tags,
         sections: sections
