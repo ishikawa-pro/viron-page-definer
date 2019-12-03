@@ -10,10 +10,9 @@ export interface API {
   path: string
 }
 
-export function createAPI(method: Method, path: string) {
-  const api:API = {
+export function createAPI(method: Method, path: string): API {
+  return {
     method: method,
     path: path
   };
-  return api;
 }

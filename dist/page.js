@@ -6,13 +6,12 @@ var defaultSection;
     defaultSection["manage"] = "manage";
 })(defaultSection = exports.defaultSection || (exports.defaultSection = {}));
 function createPage(id, name, components, section, group) {
-    var page = {
+    return {
         id: id,
         name: name,
         group: group,
         components: components,
         section: section
     };
-    return page;
 }
 exports.createPage = createPage;

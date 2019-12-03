@@ -18,13 +18,12 @@ export function createPage(
   components: Component[],
   section: string,
   group?: string
-) {
-  const page: IPage = {
+): IPage {
+  return {
     id: id,
     name: name,
     group: group,
     components: components,
     section: section
-  }
-  return page;
+  };
 }

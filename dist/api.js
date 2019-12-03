@@ -8,10 +8,9 @@ var Method;
     Method["Delete"] = "delete";
 })(Method = exports.Method || (exports.Method = {}));
 function createAPI(method, path) {
-    var api = {
+    return {
         method: method,
         path: path
     };
-    return api;
 }
 exports.createAPI = createAPI;

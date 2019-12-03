@@ -30,7 +30,7 @@ export function createMenu(
   color?: EndpointColor,
   sections?: string,
 ): IMenu {
-  const menu: IMenu = {
+  return {
     name,
     pages,
     thumbnail,
@@ -38,6 +38,5 @@ export function createMenu(
     color,
     tags,
     sections
-  }
-  return menu;
+  };
 }

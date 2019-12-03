@@ -12,7 +12,7 @@ var EndpointColor;
     EndpointColor["white"] = "white";
 })(EndpointColor = exports.EndpointColor || (exports.EndpointColor = {}));
 function createMenu(name, pages, thumbnail, tags, theme, color, sections) {
-    var menu = {
+    return {
         name: name,
         pages: pages,
         thumbnail: thumbnail,
@@ -21,6 +21,5 @@ function createMenu(name, pages, thumbnail, tags, theme, color, sections) {
         tags: tags,
         sections: sections
     };
-    return menu;
 }
 exports.createMenu = createMenu;
