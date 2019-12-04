@@ -1,11 +1,11 @@
 import assert from 'assert';
-import * as api from '../src/api';
+import { Method } from '../src/api';
 import { NumberComponent } from '../src/components';
 
 describe('number_component', () => {
   it('create NumberComponent class', () => {
     const numberComponent = new NumberComponent(
-      api.createAPI(api.Method.Get, '/test'),
+      {method: Method.Get, path: '/test'},
       'test',
       10,
       'unit'
