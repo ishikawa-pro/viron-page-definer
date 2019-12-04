@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "eslint src/**/*.ts && rm -rf dist && tsc",
-    "lint": "eslint src/**/*.ts"
+    "lint": "eslint src/**/*.ts",
+    "test": "mocha --require espower-typescript/guess test/**/*.ts"
   },
   "keywords": [
     "viron",
@@ -23,13 +24,17 @@
     "url": "https://github.com/ishikawa-pro/viron-page-definer"
   },
   "devDependencies": {
-    "@types/node": "^12.12.8",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.12.14",
     "@typescript-eslint/eslint-plugin": "^2.8.0",
     "@typescript-eslint/parser": "^2.8.0",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.7.0",
     "eslint-plugin-prettier": "^3.1.1",
+    "espower-typescript": "^9.0.2",
+    "mocha": "^6.2.2",
+    "power-assert": "^1.6.1",
     "prettier": "^1.19.1",
-    "typescript": "^3.7.2"
+    "typescript": "^3.7.3"
   }
 }
