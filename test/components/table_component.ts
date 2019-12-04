@@ -1,6 +1,6 @@
 import assert from 'assert';
-import { Method } from '../src/api';
-import { TableComponent } from '../src/components';
+import { Method } from '../../src/api';
+import { TableComponent } from '../../src/components';
 
 describe('table_component', () => {
   it('create table_component class', () => {
