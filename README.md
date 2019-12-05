@@ -1,9 +1,10 @@
 ## viron-page-definer
+[![NPM](https://nodei.co/npm/viron-page-definer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/viron-page-definer)
 viron-page-definer makes it easy to define [viron](https://github.com/cam-inc/viron) pages and menus using type completion.
 
 > ### what is viron
-> Automated Design-based Management Console.  
-> All you do is just create a API server and a OAS2.0 json file. Then viron admin tool is ready to use. You don't need to write frontend code!  
+> Automated Design-based Management Console.
+> All you do is just create a API server and a OAS2.0 json file. Then viron admin tool is ready to use. You don't need to write frontend code!
 > show [detail.](https://github.com/cam-inc/viron)
 
 ## install
