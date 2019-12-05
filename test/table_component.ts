@@ -1,9 +1,9 @@
 import assert from 'assert';
-import { Method } from '../../src/api';
-import { TableComponent } from '../../src/components';
+import { Method } from '../src/api';
+import { TableComponent } from '../src/components';
 
 describe('table_component', () => {
-  it('create table_component class', () => {
+  it('create TableComponent class', () => {
     const tableComponent = new TableComponent(
       {method: Method.Get, path: '/test'},
       'test',

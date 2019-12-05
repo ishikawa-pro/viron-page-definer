@@ -1,5 +1,5 @@
 import assert from 'assert';
-import * as api from '../../src/api';
+import * as api from '../src/api';
 
 describe('api#createAPI', () => {
   context('GET method', () => {
