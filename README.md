@@ -1,5 +1,5 @@
 ## viron-page-definer
-[![NPM](https://nodei.co/npm/viron-page-definer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/viron-page-definer)
+[![NPM](https://nodei.co/npm/viron-page-definer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/viron-page-definer)  
 viron-page-definer makes it easy to define [viron](https://github.com/cam-inc/viron) pages and menus using type completion.
 
 > ### what is viron
