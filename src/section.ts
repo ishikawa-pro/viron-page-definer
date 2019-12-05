@@ -1,4 +1,4 @@
-interface ISection {
+export interface ISection {
   id: string
   label: string
 }
