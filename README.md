@@ -31,7 +31,7 @@ const {
  * GET: /viron
  */
 const show = (req, res) => {
-  const compoennts = [
+  const components = [
     new TableComponent(
       createAPI(Method.Get, '/user'),
       'user',
@@ -45,7 +45,7 @@ const show = (req, res) => {
   const page = createPage(
     'user',
     'user',
-    compoennts,
+    components,
     defaultSection.dashboard,
     'Users'
   );
