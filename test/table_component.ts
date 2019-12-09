@@ -9,6 +9,7 @@ describe("table_component", () => {
       "test",
       10,
       ["/test-action1", "/test-action2"],
+      [{ key: "test", type: SearchQueryType.string }],
       true,
       "id",
       ["id", "name"]
@@ -19,6 +20,8 @@ describe("table_component", () => {
     assert.strictEqual(tableComponent.auto_refresh_sec, 10);
     assert.strictEqual(tableComponent.actions?.[0], "/test-action1");
     assert.strictEqual(tableComponent.actions?.[1], "/test-action2");
+    assert.strictEqual(tableComponent.query?.[0].key, "test");
+    assert.strictEqual(tableComponent.query?.[0].type, "string");
     assert.strictEqual(tableComponent.pagination, true);
     assert.strictEqual(tableComponent.primary, "id");
     assert.strictEqual(tableComponent.table_labels?.[0], "id");
