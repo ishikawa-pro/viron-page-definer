@@ -1,6 +1,6 @@
 {
   "name": "viron-page-definer",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "viron page define library",
   "main": "index.js",
   "types": "dist/index.d.ts",
@@ -48,7 +48,7 @@
       "eslint",
       "git add"
     ],
-    "test/*.ts":  [
+    "test/*.ts": [
       "prettier --write",
       "eslint",
       "git add"
