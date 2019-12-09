@@ -18,7 +18,7 @@ var NumberComponent = /** @class */ (function (_super) {
     __extends(NumberComponent, _super);
     function NumberComponent(api, name, auto_refresh_sec, unit) {
         var _this = _super.call(this, api, name, auto_refresh_sec) || this;
-        _this.style = 'number';
+        _this.style = "number";
         _this.unit = unit;
         return _this;
     }

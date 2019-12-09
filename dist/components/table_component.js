@@ -18,7 +18,7 @@ var TableComponent = /** @class */ (function (_super) {
     __extends(TableComponent, _super);
     function TableComponent(api, name, auto_refresh_sec, actions, pagination, primary, table_labels) {
         var _this = _super.call(this, api, name, auto_refresh_sec) || this;
-        _this.style = 'table';
+        _this.style = "table";
         _this.actions = actions;
         _this.pagination = pagination;
         _this.primary = primary;

@@ -1,5 +1,5 @@
-import { Component } from './base_component';
-import { API } from '../api';
+import { Component } from "./base_component";
+import { API } from "../api";
 export declare enum ChartType {
     GraphBar = "graph-bar",
     GraphScatterplot = "graph-scatterplot",
