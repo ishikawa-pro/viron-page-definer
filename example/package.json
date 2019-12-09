@@ -21,7 +21,7 @@
     "node-vironlib": "^1.6.6",
     "sequelize": "^5.7.1",
     "swagger-express-mw": "0.7.0",
-    "viron-page-definer": "0.0.10"
+    "viron-page-definer": "0.1.4"
   },
   "devDependencies": {
     "eslint": "^4.2.0",
