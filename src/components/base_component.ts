@@ -1,4 +1,4 @@
-import {API} from '../api';
+import { API } from "../api";
 
 export abstract class Component {
   api: API;

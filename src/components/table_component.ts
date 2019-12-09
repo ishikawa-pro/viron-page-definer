@@ -1,13 +1,13 @@
-import {Component} from './base_component';
-import {API} from '../api';
+import { Component } from "./base_component";
+import { API } from "../api";
 
 export class TableComponent extends Component {
-  style: string = 'table';
+  style: string = "table";
   actions?: string[];
   pagination?: boolean;
   primary?: string;
   table_labels?: string[];
-  
+
   constructor(
     api: API,
     name: string,
@@ -15,7 +15,7 @@ export class TableComponent extends Component {
     actions?: string[],
     pagination?: boolean,
     primary?: string,
-    table_labels?: string[],
+    table_labels?: string[]
   ) {
     super(api, name, auto_refresh_sec);
     this.actions = actions;
