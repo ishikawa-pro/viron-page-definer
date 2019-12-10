@@ -37,6 +37,7 @@ const show = (req, res) => {
       'user',
       10,
       null,
+      [{key: 'createdAt', type: SearchQueryType.string}],
       true,
       'user_id',
       ['user_id', 'name']
@@ -80,6 +81,9 @@ return values.
           "auto_refresh_sec": 10,
           "style": "table",
           "actions": null,
+          "query": [
+            {"key": "createdAt", "type": "string"}
+           ],
           "pagination": true,
           "primary": "user_id",
           "table_labels": [
